@@ -46,18 +46,18 @@ def cubicvolume( sdia, ldia, length, equationtype="smailian", unittype="imperial
           value = length / 4.0 * ( As + cbrt( As ** 2 * Al) + cbrt( As * Al ** 2) + Al )
           return value
     else:
-       print "Unknown unittype, options are imperial or metric"
+       print( "Unknown unittype, options are imperial or metric"
        return 
 
-print "smalian =", cubicvolume( 11.0, 10.0, 16.0)
-print "smalian =", cubicvolume( 11.0, 10.0, 16.0, "smailian", "imperial")
-print "smalian =", cubicvolume( 28.0, 25.0, 4.8, "smailian", "metric")
-print "smalian =", cubicvolume( 11.0, 10.0, 16.0, "smailian", "cunits")
-print "cone =", cubicvolume( 11.0, 10.0, 16.0, "cone")
-print "cone =", cubicvolume( 11.0, 10.0, 16.0, "cone", "imperial")
-print "cone =", cubicvolume( 28.0, 25.0, 4.8, "cone", "metric")
-print "cone =", cubicvolume( 11.0, 10.0, 16.0, "cone", "cunits")
-print "neiloid =", cubicvolume( 11.0, 10.0, 16.0, "neiloid")
-print "neiloid =", cubicvolume( 11.0, 10.0, 16.0, "neiloid", "imperial")
-print "neiloid =", cubicvolume( 28.0, 25.0, 4.8, "neiloid", "metric")
-print "neiloid =", cubicvolume( 11.0, 10.0, 16.0, "neiloid", "cunits")
+print( "smalian =", cubicvolume( 11.0, 10.0, 16.0))
+print( "smalian =", cubicvolume( 11.0, 10.0, 16.0, "smailian", "imperial"))
+print( "smalian =", cubicvolume( 28.0, 25.0, 4.8, "smailian", "metric"))
+print( "smalian =", cubicvolume( 11.0, 10.0, 16.0, "smailian", "cunits"))
+print( "cone =", cubicvolume( 11.0, 10.0, 16.0, "cone"))
+print( "cone =", cubicvolume( 11.0, 10.0, 16.0, "cone", "imperial"))
+print( "cone =", cubicvolume( 28.0, 25.0, 4.8, "cone", "metric"))
+print( "cone =", cubicvolume( 11.0, 10.0, 16.0, "cone", "cunits"))
+print( "neiloid =", cubicvolume( 11.0, 10.0, 16.0, "neiloid"))
+print( "neiloid =", cubicvolume( 11.0, 10.0, 16.0, "neiloid", "imperial"))
+print( "neiloid =", cubicvolume( 28.0, 25.0, 4.8, "neiloid", "metric"))
+print( "neiloid =", cubicvolume( 11.0, 10.0, 16.0, "neiloid", "cunits"))

@@ -14,13 +14,13 @@ def basalarea( dia=[], weight=[], unittype="imperial"):
        elif( unittype == "metric"):
           value = value + 0.00007854 * d**2 * weight[idx]
        else:
-          print "Unknown unittype, options are imperial or metric"
+          print( "Unknown unittype, options are imperial or metric" )
           return
     idx = idx + 1      
     next
     return value
 
-print "basalarea =", basalarea(dia=[8,6,8,5,4,6,7],weight=[10,10,10,10,10,10,10] )
-print "basalarea =", basalarea(dia=[8,6,8,5,4,6,7],weight=[10,10,10,10,10,10,10], unittype="imperial" )
-print "basalarea =", basalarea(dia=[8,6,8,5,4,6,7],weight=[25,25,25,25,25,25,25], unittype="metric" )
-print "basalarea =", basalarea([1], [1], "cunits")
+print( "basalarea =", basalarea(dia=[8,6,8,5,4,6,7],weight=[10,10,10,10,10,10,10] ))
+print( "basalarea =", basalarea(dia=[8,6,8,5,4,6,7],weight=[10,10,10,10,10,10,10], unittype="imperial" ))
+print( "basalarea =", basalarea(dia=[8,6,8,5,4,6,7],weight=[25,25,25,25,25,25,25], unittype="metric" ))
+print( "basalarea =", basalarea([1], [1], "cunits"))

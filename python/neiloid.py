@@ -28,10 +28,10 @@ def neloid( sdia, ldia, length, unittype="imperial", sameunits=False):
        value = length / 4.0 * ( As + ( As**2.0 * Al)**(1.0/3.0) + (As * Al**2.0)**(1.0/3.0) + Al )
        return value
     else:
-       print "Unknown unittype, options are imperial or metric"
+       print( "Unknown unittype, options are imperial or metric"
        return 
 
-print "neloid =", neloid( 11.0, 10.0, 16.0)
-print "neloid =", neloid( 11.0, 10.0, 16.0, "imperial")
-print "neloid =", neloid( 28.0, 25.0, 4.8, "metric")
-print "neloid =", neloid(11.0, 10.0, 16.0, "cuni:xts")
+print( "neloid =", neloid( 11.0, 10.0, 16.0))
+print( "neloid =", neloid( 11.0, 10.0, 16.0, "imperial"))
+print( "neloid =", neloid( 28.0, 25.0, 4.8, "metric"))
+print( "neloid =", neloid(11.0, 10.0, 16.0, "cuni:xts"))

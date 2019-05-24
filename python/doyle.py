@@ -9,5 +9,5 @@ def doyle( sdia, length):
     value = (( sdia - 4.0) / 4.0 )**2 * length
     return value
 
-print "doyle =", doyle(sdia=10,length=16)
-print "doyle =", doyle(sdia=28,length=16)
+print( "doyle =", doyle(sdia=10,length=16))
+print( "doyle =", doyle(sdia=28,length=16))

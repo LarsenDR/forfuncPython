@@ -14,10 +14,10 @@ def qmd( ba, tpa, unittype="imperial"):
        value = math.sqrt( (ba/tpa)/0.00007854 )
        return value
     else:
-       print "Unknown unittype, options are imperial or metric"
+       print( "Unknown unittype, options are imperial or metric")
        return 
 
-print "qmd =", qmd(80.0, 200.0)
-print "qmd =", qmd(80.0, 200.0, "imperial")
-print "qmd =", qmd(18.3, 494.1, "metric")
-print "qmd =", qmd(1.0, 1.0, "cunits")
+print( "qmd =", qmd(80.0, 200.0))
+print( "qmd =", qmd(80.0, 200.0, "imperial"))
+print( "qmd =", qmd(18.3, 494.1, "metric"))
+print( "qmd =", qmd(1.0, 1.0, "cunits"))

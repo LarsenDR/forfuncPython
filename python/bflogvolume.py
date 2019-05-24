@@ -44,9 +44,9 @@ def intVolume( sdia, length):
 
 # test of functions
 
-print "doyle =", doyle(sdia=10,length=16)
-print "doyle =", doyle(sdia=28,length=16)
-print "scribner =", scribner(sdia=10,length=16)
-print "scribner =", scribner(sdia=28,length=16)
-print "International volume =", intVolume(sdia=10,length=16)
-print "International volume =", intVolume(sdia=28,length=16)
+print( "doyle =", doyle(sdia=10,length=16))
+print( "doyle =", doyle(sdia=28,length=16))
+print( "scribner =", scribner(sdia=10,length=16))
+print( "scribner =", scribner(sdia=28,length=16))
+print( "International volume =", intVolume(sdia=10,length=16))
+print( "International volume =", intVolume(sdia=28,length=16))

@@ -13,6 +13,6 @@ def density( sg, mc=12.0, waterdensity=62.43):
 	density = waterdensity * sg * (1 + (mc / 100.0))
 	return density
 	
-print "imperial =", density( 0.4 )
-print "imperial =", density( 0.4, 12.0, 62.43)
-print "si =", density( 0.4, 12.0, 1000.0)
+print( "imperial =", density( 0.4 ))
+print( "imperial =", density( 0.4, 12.0, 62.43))
+print( "si =", density( 0.4, 12.0, 1000.0))

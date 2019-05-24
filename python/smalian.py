@@ -28,10 +28,10 @@ def smalian( sdia, ldia, length, unittype="imperial", sameunits=False):
        value = length / 2.0 * ( As + Al )
        return value
     else:
-       print "Unknown unittype, options are imperial or metric"
+       print( "Unknown unittype, options are imperial or metric"
        return 
 
-print "smalian =", smalian( 11.0, 10.0, 16.0)
-print "smalian =", smalian( 11.0, 10.0, 16.0, "imperial")
-print "smalian =", smalian( 28.0, 25.0, 4.8, "metric")
-print "smalian =", smalian(11.0, 10.0, 16.0, "cunits")
+print( "smalian =", smalian( 11.0, 10.0, 16.0))
+print( "smalian =", smalian( 11.0, 10.0, 16.0, "imperial"))
+print( "smalian =", smalian( 28.0, 25.0, 4.8, "metric"))
+print( "smalian =", smalian(11.0, 10.0, 16.0, "cunits"))

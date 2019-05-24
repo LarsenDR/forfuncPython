@@ -37,9 +37,9 @@ def mesavage( dbh, mht, volumeType="Doyle", girard=78.0):
           
     return volume 
 
-print "Int 1/4 (78) =", mesavage(dbh=24.0,mht=40,volumeType="Int1/4", girard=78)
-print "Int 1/4 (82) =", mesavage(dbh=24.0,mht=40,volumeType="Int1/4", girard=82)
-print "Scribner (78) =", mesavage(dbh=24.0,mht=40,volumeType="Scribner", girard=78)
-print "Scribner (82) =", mesavage(dbh=24.0,mht=40,volumeType="Scribner", girard=82)
-print "Doyle (78) =", mesavage(dbh=24.0,mht=40,volumeType="Doyle", girard=78)
-print "Doyle (82) =", mesavage(dbh=24.0,mht=40,volumeType="Doyle", girard=82)
+print( "Int 1/4 (78) =", mesavage(dbh=24.0,mht=40,volumeType="Int1/4", girard=78))
+print( "Int 1/4 (82) =", mesavage(dbh=24.0,mht=40,volumeType="Int1/4", girard=82))
+print( "Scribner (78) =", mesavage(dbh=24.0,mht=40,volumeType="Scribner", girard=78))
+print( "Scribner (82) =", mesavage(dbh=24.0,mht=40,volumeType="Scribner", girard=82))
+print( "Doyle (78) =", mesavage(dbh=24.0,mht=40,volumeType="Doyle", girard=78))
+print( "Doyle (82) =", mesavage(dbh=24.0,mht=40,volumeType="Doyle", girard=82))

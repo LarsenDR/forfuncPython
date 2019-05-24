@@ -14,10 +14,10 @@ def sdi( tpa, qmd, unittype="imperial"):
        value = tpa * ( qmd / 25.4 )**1.605
        return value
     else:
-       print "Unknown unittype, options are imperial or metric"
+       print( "Unknown unittype, options are imperial or metric")
        return 
 
-print "sdi =", sdi( 200.0, 12.3)
-print "sdi =", sdi( 200.0, 12.3, "imperial")
-print "sdi =", sdi( 494.1, 31, "metric")
-print "sdi =", sdi(1, 1, "cuni:xts")
+print( "sdi =", sdi( 200.0, 12.3))
+print( "sdi =", sdi( 200.0, 12.3, "imperial"))
+print( "sdi =", sdi( 494.1, 31, "metric"))
+print( "sdi =", sdi(1, 1, "cunits"))

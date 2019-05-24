@@ -9,5 +9,5 @@ def scribner( sdia, length):
     value = ( 0.79 * sdia**2 - 2 * sdia - 4 ) * (length / 16)
     return value
 
-print "scribner =", scribner(sdia=10,length=16)
-print "scribner =", scribner(sdia=28,length=16)
+print( "scribner =", scribner(sdia=10,length=16))
+print( "scribner =", scribner(sdia=28,length=16))

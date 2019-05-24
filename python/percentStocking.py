@@ -44,8 +44,8 @@ def percentStocking( ba, tpa, type="upland.oak" ):
   
 
 # testing
-print "      percent stocking( 55, 100, \"upland.oak\") = ", percentStocking( 55.0, 100.0, type="upland.oak")   
-print "     percent stocking( 100, 200, \"upland.oak\") = ", percentStocking( 100.0, 200.0, type="upland.oak") 
-print "percent stocking( 50, 100, \"northern.red.oak\") = ", percentStocking( 50.0, 100.0, type="northern.red.oak") 
-print "      percent stocking( 100, 50, \"upland.oak\") = ", percentStocking( 100.0, 50.0, type="upland.oak") 
-print "      percent stocking( 50, 400, \"upland.oak\") = ", percentStocking( 50.0, 400.0, type="upland.oak") 
+print( "      percent stocking( 55, 100, \"upland.oak\") = ", percentStocking( 55.0, 100.0, type="upland.oak"))
+print( "     percent stocking( 100, 200, \"upland.oak\") = ", percentStocking( 100.0, 200.0, type="upland.oak"))
+print( "percent stocking( 50, 100, \"northern.red.oak\") = ", percentStocking( 50.0, 100.0, type="northern.red.oak"))
+print( "      percent stocking( 100, 50, \"upland.oak\") = ", percentStocking( 100.0, 50.0, type="upland.oak"))
+print( "      percent stocking( 50, 400, \"upland.oak\") = ", percentStocking( 50.0, 400.0, type="upland.oak"))

@@ -24,7 +24,7 @@ def treeVolume( dbh, mht, volumeType="boardfeet"):
           
     return volume 
 
-print "Cords =", treeVolume(dbh=10,mht=26,volumeType="cords")
-print "Cubic =", treeVolume(dbh=10,mht=26,volumeType="cubic")
-print "Cubic with bark =", treeVolume(dbh=10,mht=26,volumeType="cubicbark")
-print "International 1/4 boardfeet =", treeVolume(dbh=10,mht=26,volumeType="boardfeet")
+print( "Cords =", treeVolume(dbh=10,mht=26,volumeType="cords"))
+print( "Cubic =", treeVolume(dbh=10,mht=26,volumeType="cubic"))
+print( "Cubic with bark =", treeVolume(dbh=10,mht=26,volumeType="cubicbark"))
+print( "International 1/4 boardfeet =", treeVolume(dbh=10,mht=26,volumeType="boardfeet"))
