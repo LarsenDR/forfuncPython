@@ -25,12 +25,6 @@ def acornwt(dbh, species):
   return acornwt  
 
 	
-<<<<<<< HEAD
-print( "imperial =", acornwt( 14.3, "black" ))
-print( "imperial =", acornwt( 22.6, "white" ))
-print( "imperial =", acornwt( 18.9, "scarlet" ))
-=======
 print "black oak, 14.3, imperial =", acornwt( 14.3, "black" )
 print "white oak, 22.6, imperial =", acornwt( 22.6, "white" )
 print "scarlet oak, 18.9, imperial =", acornwt( 18.9, "scarlet" )
->>>>>>> ecf78d3b7d543d42dbb856c2ebf8602ae9ceb81c
